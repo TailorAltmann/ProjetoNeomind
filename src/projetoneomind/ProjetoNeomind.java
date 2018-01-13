@@ -23,7 +23,7 @@ public class ProjetoNeomind {
         if(hora > 12){
             hora -= 12;
         }        
-        //fórmula para caular o ângulo entre os ponteiros
+        //fórmula para caucular o ângulo entre os ponteiros
         angulo = (30 * hora) - ((11 * minuto) / 2);        
         //verifica se o valor é positivo
         if(angulo < 0){
